@@ -1,0 +1,11 @@
+//factor count 
+#include<stdio.h>
+main(){
+	int num,i,count=0;
+	printf("enter the n number");
+	scanf("%d",&num);
+	for(i=1;i<=num;i++)
+	if(num%i==0)
+	count++;
+	printf("Total factors=%d",count);
+}
